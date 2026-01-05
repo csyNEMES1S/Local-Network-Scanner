@@ -1,15 +1,16 @@
-# 🛡️ Local Vulnerability Scanner (Yerel Ağ Zafiyet Tarayıcısı)
+# 🛡️ DAZAL - Local Vulnerability Scanner v3.0
 
-Bu proje, Python ve Nmap kütüphaneleri kullanılarak geliştirilmiş, yerel ağ üzerindeki cihazları analiz eden ve potansiyel güvenlik risklerini raporlayan bir siber güvenlik aracıdır.
+Profesyonel, nesne yönelimli (OOP) mimari ile geliştirilmiş ağ zafiyet tarama ve raporlama aracı.
 
 ## 🚀 Özellikler
-- **IP Tarama:** Hedef IP üzerindeki aktif cihazları tespit eder.
-- **Port Analizi:** 1-1024 arasındaki TCP portlarını tarar.
-- **Versiyon Tespiti (Banner Grabbing):** Çalışan servislerin (Apache, OpenSSH, vb.) versiyonlarını çeker.
-- **Risk Analizi:** Kritik portlar (Telnet, FTP, SMB) tespit edildiğinde güvenlik uyarısı verir.
+- **CLI Desteği:** Komut satırı argümanları ile profesyonel kullanım.
+- **Akıllı Risk Analizi:** Port ve servis versiyonlarına göre risk derecelendirmesi (Kritik, Yüksek, Orta).
+- **HTML Raporlama:** Sonuçları detaylı HTML tablosu olarak dışa aktarır.
+- **Genişletilebilir Yapı:** OOP mimarisi sayesinde yeni modüller eklenebilir.
 
 ## 🛠️ Kurulum
 
-1. Projeyi bilgisayarınıza klonlayın:
-   ```bash
-   git clone [https://github.com/kullaniciadin/Local-Vuln-Scanner.git](https://github.com/kullaniciadin/Local-Vuln-Scanner.git)
+```bash
+git clone [https://github.com/csyNEMES1S/Local-Network-Scanner.git](https://github.com/csyNEMES1S/Local-Network-Scanner.git)
+cd Local-Network-Scanner
+pip install -r requirements.txt
